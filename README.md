@@ -1,2 +1,1 @@
-# bokadios
-Website for Bokadios
+## Site template v1
