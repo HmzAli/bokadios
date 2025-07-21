@@ -12,8 +12,10 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <div className="text-section" data-aos="fade-in" data-aos-duration="1000">
-              <h2>Home made authentic</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+              <div className="section-inner">
+                <h2>Home made authentic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -21,7 +23,11 @@ const About = () => {
         <div className="row gx-0 flex-column-reverse flex-md-row">
           <div className="col-md-6">
             <div className="text-section section-left" data-aos="fade-in" data-aos-duration="1000">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+              <div className="section-inner">
+                <h2>Home made authentic</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+              </div>
             </div>
           </div>
           <div className="col-md-6">
