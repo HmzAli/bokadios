@@ -9,7 +9,7 @@ function AboutUs() {
     <Layout>
       <PageMetadata
         title="About Us - BOKADIOS"
-        description="Discover the story behind Bokadios — born from a home kitchen in Bangi, inspired by love for fresh, healthy lemonade. Honest ingredients, handcrafted in small batches."
+        description=""
         canonical="https://bokadios.com/about-us"
       />
 

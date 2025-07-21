@@ -1,13 +1,23 @@
 @use '../../variables' as *;
 
 .about {
+  overflow: hidden;
   background-color: $color-light;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-  
+  // clip-path: polygon(0 4%, 100% 0, 100% 97%, 0% 100%);
+
+
   .text-section {
-    padding: 1rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .section-left {
+    // background-color: $color-secondary;
+
+    // * {
+    //   color: $color-light;
+    // }
   }
 
   .image-wrapper {
