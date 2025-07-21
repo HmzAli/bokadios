@@ -26,7 +26,10 @@
     }
 
     .tagline {
-        
+        * {
+            color: $color-tertiary;
+        }
+
         h1 {
             font-size: 3rem;
             letter-spacing: .3em;

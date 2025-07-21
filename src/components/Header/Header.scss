@@ -61,19 +61,6 @@ body {
     &.scrolled,
     &.not-in-homepage {
       .header-inner {
-        .menu-btw-wrapper {
-          background-color: rgba(255, 255, 255, 0.55);
-        }
-        
-        .menu-btn {
-          width: 40px;
-          filter: brightness(0);
-
-
-          img {
-            filter: brightness(0);
-          }
-        }
       }
     }
   }

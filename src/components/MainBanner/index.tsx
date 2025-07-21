@@ -1,11 +1,41 @@
 import { Link } from "react-router"
 import "./MainBanner.scss"
 
+import { useEffect } from "react"
+
 const MainBanner = () => {
+  useEffect(() => {
+    const initialScrollPosition  = window.scrollY || window.pageYOffset;
+    if (initialScrollPosition > 0) {
+      return;
+    }
+    // @ts-ignore
+    const controller = new ScrollMagic.Controller({
+      globalSceneOptions: {
+        reverse: true
+      }
+    });
+        
+    // @ts-ignore
+    const fadeUpAnimation = gsap.to("#tagline", {
+        y: -100,
+        opacity: 0,
+        duration: 1
+    });
+        
+    // @ts-ignore
+      const scene = new ScrollMagic.Scene({
+          triggerElement: "#about",
+          triggerHook: 0.8,
+          duration: 300
+      })
+      .setTween(fadeUpAnimation)
+      .addTo(controller);
+  }, [])
   return (
     <section className="main-banner">
       <div className="container">
-        <div className="tagline" data-content-id="tagline">
+        <div className="tagline" data-content-id="tagline" id="tagline">
            <h1 data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">Fast & Delicious!</h1>
            <p data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">Moroccan and Mediterranean sandwitches served hot and fresh.</p> 
         </div>
