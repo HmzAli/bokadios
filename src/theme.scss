@@ -162,6 +162,11 @@ figure {
   margin: 0;
 }
 
+.image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
 // Slick
 .slick-slider {
   .slick-slide {
@@ -310,3 +315,4 @@ small {
   font-size: .8rem;
   color: #999;
 }
+

@@ -1,0 +1,16 @@
+@use '../../variables' as *;
+
+.about {
+  background-color: $color-light;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  
+  .text-section {
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .image-wrapper {
+    @extend .fixed-ratio-image;
+  }
+}
