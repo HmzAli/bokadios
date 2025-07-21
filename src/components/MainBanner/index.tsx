@@ -26,7 +26,7 @@ const MainBanner = () => {
     // @ts-ignore
       const scene = new ScrollMagic.Scene({
           triggerElement: "#about",
-          triggerHook: 0.8,
+          triggerHook: 1,
           duration: 300
       })
       .setTween(fadeUpAnimation)
