@@ -10,14 +10,18 @@
   .menu-btw-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: .2rem;
+    right: 1rem;
+    top: 1.5rem;
   }
 
   .menu-btn {
     position: absolute;
-    left: 0;
-    width: 60px;
+    width: 40px;
     height: auto;
     object-fit: contain;
   }

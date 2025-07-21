@@ -1,13 +1,13 @@
 @use './variables' as *;
+@use './custom.scss';
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './fonts.css';
-@import './custom.scss';
 
 /* Global Styles */
 html {
   position: relative;
-  font-family: 'Merriweather Sans';
+  font-family: 'Quicksand';
   font-weight: 300;
   line-height: 1.5;
   font-size: 18px;
@@ -29,8 +29,7 @@ body {
 
 // Typeography
 h1, h2, h3, H4 {
-  font-family: 'norwester.otf';
-  text-transform: uppercase;
+  font-weight: 700;
   margin-bottom: 0.5em;
 }
 
@@ -53,9 +52,8 @@ p {
 // Buttons
 .btn {
   min-width: 150px;
-  font-family: 'norwester.otf';
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   border-radius: 0;
   background-color: $color-secondary;

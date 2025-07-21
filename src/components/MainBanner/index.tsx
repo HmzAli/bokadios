@@ -1,4 +1,4 @@
-import Cta from "../Cta"
+import { Link } from "react-router"
 import "./MainBanner.scss"
 
 const MainBanner = () => {
@@ -6,19 +6,19 @@ const MainBanner = () => {
     <section className="main-banner">
       <div className="container">
         <div className="tagline" data-content-id="tagline">
-           <h1>Lorem Ipsum Heading</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <h1 data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">Fast & Delicious!</h1>
+           <p data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">Moroccan and Mediterranean sandwitches served hot and fresh.</p> 
         </div>
-
-        <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="secondary" icon="whatsapp" />
       </div>
 
       <figure className="banner-image" data-aos="fade-in" data-aos-duration="500">
         <img src="./main-banner.webp" alt="bokadios" />
       </figure>
 
-      <figure className="banner-image-2" data-aos="fade-in" data-aos-duration="1000">
-        <img src="./bottle-in-ice.webp" alt="product image" />
+      <figure className="banner-logo" data-aos="fade-in" data-aos-duration="500">
+        <a href="/">
+          <img src="./logo.png" alt="bokadios" />
+        </a>
       </figure>
     </section>
   )

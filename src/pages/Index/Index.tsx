@@ -18,10 +18,6 @@ function Index() {
       />
 
       <MainBanner />
-      <Products />
-      <Process />
-      <Testimonials />
-      <Order />
     </Layout>
   )
 }
