@@ -13,8 +13,9 @@ const About = () => {
           <div className="col-md-6">
             <div className="text-section" data-aos="fade-in" data-aos-duration="1000">
               <div className="section-inner">
-                <h2>Home made authentic</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+                <h2>Authentic Mediterranean Bites</h2>
+                
+                <p>Bokadios is a mobile kitchen based in the vibrant township of Damansara Perdana, offering sandwiches and light snacks. Focused on quality and craftsmanship, we prepare each item with care and attention to detail. Bokadios aims to provide a straightforward, satisfying food experience for anyone looking for a quick, honest meal in a relaxed setting.</p>
               </div>
             </div>
           </div>
@@ -24,9 +25,9 @@ const About = () => {
           <div className="col-md-6">
             <div className="text-section section-left" data-aos="fade-in" data-aos-duration="1000">
               <div className="section-inner">
-                <h2>Home made authentic</h2>
+                <h2>A Taste of Morocco </h2>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus reiciendis doloremque dolor? Unde minus, autem quaerat voluptatum magni explicabo praesentium asperiores esse nihil eum sunt molestiae modi veniam aliquam.</p>
+                <p>Our signature sandwich, the Bokadios, comes with your choice of beef, chicken or vegetarian. Inspired by everyday street food from Morocco, it's warm, simple, and made fresh to order. We keep things uncomplicated, focusing on familiar flavours and a straightforward approach that makes the Bokadios a favourite for many of our regulars.</p>
               </div>
             </div>
           </div>
