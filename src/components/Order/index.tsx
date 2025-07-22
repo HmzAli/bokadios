@@ -1,4 +1,3 @@
-import React from 'react';
 import './Order.scss';
 
 const Order = () => {

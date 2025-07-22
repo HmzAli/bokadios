@@ -1,5 +1,4 @@
 import './Header.scss'
-import Logo from '../Logo'
 import Navbar from '../Navbar'
 import { useState, useEffect } from 'react'
 import NavButton from '../NavButton'

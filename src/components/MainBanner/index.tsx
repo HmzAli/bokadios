@@ -1,7 +1,5 @@
-import { Link } from "react-router"
-import "./MainBanner.scss"
-
-import { useEffect } from "react"
+import './MainBanner.scss'
+import { useEffect } from 'react'
 
 const MainBanner = () => {
   useEffect(() => {

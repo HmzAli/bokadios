@@ -4,11 +4,10 @@ import { Link } from 'react-router-dom';
 const NotFound: React.FC = () => {
   return (
     <div className="container text-center py-5">
-      <h1>Lorem Ipsum Heading</h1>
-      <h2>Lorem Ipsum Heading</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1>404 Not found</h1>
+      <p>The page you are looking for doesn't exist or have been moved.</p>
       <Link to="/" className="btn btn-secondary">
-        Go to Homepage
+        Go to home page
       </Link>
     </div>
   );
