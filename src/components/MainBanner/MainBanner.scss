@@ -77,6 +77,17 @@
     @include mobile {
         height: 100vh;
 
+        .tagline {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+
+        .banner-logo {
+            left: .5rem;
+            width: 120px;
+        }
+
         .banner-image {
             position: absolute;
         }

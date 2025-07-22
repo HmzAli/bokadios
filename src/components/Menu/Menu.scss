@@ -2,4 +2,12 @@
 
 .menu {
   background-color: $color-tertiary;
+
+  @include mobile {
+    .item-card {
+      .product-image {
+        height: 15rem;
+      }
+    }
+  }
 }
