@@ -5,6 +5,7 @@ import Process from '../../components/Process'
 import Testimonials from '../../components/Testimonials'
 import Order from '../../components/Order'
 import About from '../../components/About'
+import Menu from '../../components/Menu'
 import './Index.scss'
 import { PageMetadata } from '../../components/PageMetaData'
 
@@ -20,6 +21,7 @@ function Index() {
 
       <MainBanner />
       <About />
+      <Menu />
     </Layout>
   )
 }

@@ -2,7 +2,7 @@ import "./Footer.scss"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="container" data-aos="fade-in" data-aos-duration="500">
         <div className="connect">
           <h4>Connect with us</h4>
