@@ -1,0 +1,33 @@
+@use '../../variables' as *;
+
+.about {
+  overflow: hidden;
+  background-color: $color-light;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  // clip-path: polygon(0 4%, 100% 0, 100% 97%, 0% 100%);
+
+
+  .text-section {
+    height: 100%;
+    padding: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .section-inner {
+      
+    }
+  }
+
+  .section-left {
+    // background-color: $color-secondary;
+
+    // * {
+    //   color: $color-light;
+    // }
+  }
+
+  .image-wrapper {
+    @extend .fixed-ratio-image;
+  }
+}

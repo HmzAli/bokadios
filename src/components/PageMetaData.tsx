@@ -1,8 +1,8 @@
 import { useInsertionEffect } from 'react';
 
 export function PageMetadata({ 
-  title = 'BOKADIOS',
-  description = 'Premium handcrafted lemonade',
+  title = 'Bokadios',
+  description = 'The Finest Mediterranean Sandwitches',
   canonical = 'https://bokadios.com',
   keywords = '',
   ogImage = ''
@@ -45,7 +45,7 @@ export function PageMetadata({
     link.href = canonical;
 
     return () => {
-      document.title = 'BOKADIOS';
+      document.title = 'Bokadios';
     };
   }, [title, description, canonical, keywords, ogImage]);
 

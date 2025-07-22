@@ -9,7 +9,7 @@ interface LogoProps {
 const Logo: FC<LogoProps> = ({ variant = 'primary' }) => {
   return (
     <div className={`logo logo--${variant}`}>
-      <Link to="/"><img src="/logo.svg" alt="Bokadios Logo" /></Link>
+      <Link to="/"><img src="/logo.jpg" alt="Bokadios Logo" /></Link>
     </div>
   )
 }

@@ -1,5 +1,4 @@
 import './Header.scss'
-import Logo from '../Logo'
 import Navbar from '../Navbar'
 import { useState, useEffect } from 'react'
 import NavButton from '../NavButton'
@@ -47,9 +46,9 @@ const Header = () => {
   return (
     <header id="header" className={(isScrolled) ? 'scrolled' : !isHomePage ? 'not-in-homepage' : '' }>
       <div className="header-outer">
-        <div className="container">
+        <div className="container-fluid">
           <div className="header-inner">
-            <Logo variant="invert" />
+            {/* <Logo variant="invert" /> */}
 
             <NavButton isOpen={isMenuOpen} onClick={toggleMenu} />
           </div>

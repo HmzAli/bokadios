@@ -53,6 +53,11 @@
     .nav-button .menu-btn {
       width: 2.5rem;
     }
+
+    .menu-btw-wrapper {
+      right: .5rem;
+      top: 2rem;
+    }
   }
 }
 
@@ -60,23 +65,7 @@ body {
   #header {
     &.scrolled,
     &.not-in-homepage {
-      @include box-shadow;
-      
-      .header-outer {
-        background: rgba(241, 204, 27, 0.6);
-        backdrop-filter: blur(10px);
-      }
-
       .header-inner {
-        .logo {
-          width: 8rem;
-          filter: brightness(0);
-        }
-
-        .menu-btn {
-          width: 40px;
-          filter: brightness(0);
-        }
       }
     }
   }

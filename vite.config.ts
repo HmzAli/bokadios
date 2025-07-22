@@ -9,8 +9,8 @@ export default defineConfig({
       minify: true,
       inject: {
         data: {
-          title: 'BOKADIOS',
-          description: 'Bokadios is a handcrafted lemonade brand based in Bangi, Malaysia — made with real lemons, premium sugar, and no shortcuts. Order online, pick up weekly in KL.',
+          title: 'Bokadios',
+          description: 'Mediterranean sandwiches',
           canonical: 'https://bokadios.com'
         },
       },
