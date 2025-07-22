@@ -11,9 +11,8 @@ function Index() {
     <Layout>
       <PageMetadata
         title="Bokadios"
-        description="Bokadios is a handcrafted lemonade brand based in Bangi, Malaysia — made with real lemons, premium sugar, and no shortcuts. Order online, pick up weekly in KL."
+        description="Moroccan and Mediterranean sandwitches served hot and fresh."
         canonical="https://bokadios.com"
-        keywords="buy lemonade, organic, natural drink"
       />
 
       <MainBanner />
