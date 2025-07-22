@@ -1,3 +1,5 @@
 @use '../../variables' as *;
 
-// Add Menu component styles here 
+.menu {
+  background-color: $color-tertiary;
+}

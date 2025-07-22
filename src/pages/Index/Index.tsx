@@ -22,6 +22,7 @@ function Index() {
       <MainBanner />
       <About />
       <Menu />
+      <Order />
     </Layout>
   )
 }
