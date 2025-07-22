@@ -1,1 +1,1 @@
-## Site template v1
+## Bokadios offical site
