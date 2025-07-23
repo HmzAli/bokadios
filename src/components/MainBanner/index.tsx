@@ -35,7 +35,7 @@ const MainBanner = () => {
       <div className="container">
         <div className="tagline" data-content-id="tagline" id="tagline">
            <h1 data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">Fast & Delicious!</h1>
-           <p data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">Moroccan and Mediterranean sandwitches served hot and fresh.</p> 
+           <p data-aos="fade-in" data-aos-duration="500" data-aos-delay="300">Moroccan and Mediterranean sandwiches served hot and fresh.</p> 
         </div>
       </div>
 

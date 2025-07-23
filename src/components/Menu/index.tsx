@@ -42,11 +42,11 @@ const Menu = () => {
 
                 <div className="col-md-7">
                   <div className="content-wrapper" data-content-id="product-desc" data-aos="fade-in" data-aos-duration="800">
-                    <h4> Shawarma </h4>
+                    <h4> Shawarious </h4>
 
                     <div className="product-desc">
                       <div className="product-caption">
-                        Double-wrapped shawarma in beef or chicken, with lettuce, onion, pickles, and tahini sauce. Available in small or large size.
+                        Double-wrapped Shawarious in beef or chicken, with lettuce, onion, pickles, and tahini sauce. Available in small or large size.
                       </div>
                     </div>
                   </div>
