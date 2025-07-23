@@ -4,4 +4,10 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: $color-tertiary;
-} 
+
+  @include mobile {
+    .product-image {
+      height: 20rem;
+    }
+  }
+}
