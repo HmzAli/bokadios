@@ -28,8 +28,8 @@ body {
 }
 
 section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 // Typeography
@@ -49,10 +49,6 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
-}
-
-.main-section__title {
-  margin-top: 2rem;
 }
 
 p {
@@ -149,11 +145,10 @@ p {
 // Containers
 .main-section {
   position: relative;
-  padding-top: 2rem;
-  padding-bottom: 6rem;
   
   &__title {
-    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
     text-align: center;
   }
 }
