@@ -2,9 +2,10 @@ import Layout from '../../components/Layout'
 import MainBanner from '../../components/MainBanner'
 import Order from '../../components/Order'
 import About from '../../components/About'
-import Menu from '../../components/Menu'
+import Selections from '../../components/Selections'
 import './Index.scss'
 import { PageMetadata } from '../../components/PageMetaData'
+import Menu from '../../components/Menu'
 
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
       <MainBanner />
       <About />
       <Menu />
+      <Selections />
       <Order />
     </Layout>
   )

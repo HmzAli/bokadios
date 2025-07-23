@@ -1,13 +1,20 @@
 @use '../../variables' as *;
 
 .menu {
-  background-color: $color-tertiary;
+  background-color: $color-primary;
+  padding-bottom: 2rem;
 
-  @include mobile {
-    .item-card {
-      .product-image {
-        height: 15rem;
-      }
+  .menu-wrapper {
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 1000px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     }
+  }
+
+  * {
+    color: $color-light
   }
 }
