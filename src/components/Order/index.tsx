@@ -29,13 +29,19 @@ const Order = () => {
 
         <div className="online-order-list">
           <div className="order-item">
-            <img src="/grab-food.png" alt="GrabFood" />
+            <a target="_blank" href="https://r.grab.com/g/6-20250723_193156_2d07feff4f9349c081a769a134f90b41_MEXMPS-1-C3TCVVMJTPA1TN">
+              <img src="/grab-food.png" alt="GrabFood" />
+            </a>
           </div>
+
+          <div className="order-item">
+            <a href="https://www.foodpanda.my/restaurant/u6qm/bokadios-damansara-perdana">
+              <img src="/foodpanda.png" alt="FoodPanda" />
+            </a>
+          </div>
+
           <div className="order-item">
             <img src="/shopee-food.png" alt="ShopeeFood" />
-          </div>
-          <div className="order-item">
-            <img src="/foodpanda.png" alt="FoodPanda" />
           </div>
         </div>
       </section>
